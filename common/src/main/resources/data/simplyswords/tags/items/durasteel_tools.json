@@ -1,9 +1,0 @@
-{
-  "replace": false,
-  "values": [
-        {
-          "id": "simplyswords:mythicmetals_compat/durasteel/durasteel_greathammer",
-          "required": false
-        }
-  ]
-}

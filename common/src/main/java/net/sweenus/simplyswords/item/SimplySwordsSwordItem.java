@@ -24,7 +24,7 @@ public class SimplySwordsSwordItem extends SwordItem {
 
     public SimplySwordsSwordItem(ToolMaterial toolMaterial, int attackDamage, float attackSpeed, String... repairIngredient) {
         super(toolMaterial, attackDamage, attackSpeed,
-                new Item.Settings().arch$tab(SimplySwords.SIMPLYSWORDS));
+                new Item.Settings());
         this.repairIngredient = repairIngredient;
     }
 

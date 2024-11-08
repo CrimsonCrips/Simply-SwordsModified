@@ -18,8 +18,7 @@ public class SimplySwordsNetheriteSwordItem extends SwordItem {
     String[] repairIngredient;
 
     public SimplySwordsNetheriteSwordItem(ToolMaterial toolMaterial, int attackDamage, float attackSpeed, String... repairIngredient) {
-        super(toolMaterial, attackDamage, attackSpeed,
-                new Settings().arch$tab(SimplySwords.SIMPLYSWORDS).fireproof());
+        super(toolMaterial, attackDamage, attackSpeed, new Settings().fireproof());
         this.repairIngredient = repairIngredient;
     }
 

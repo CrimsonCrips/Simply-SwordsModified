@@ -1,9 +1,0 @@
-{
-  "replace": false,
-  "values": [
-        {
-          "id": "simplyswords:mythicmetals_compat/copper/copper_longsword",
-          "required": false
-        }
-  ]
-}
